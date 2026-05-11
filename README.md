@@ -60,7 +60,7 @@ Con Edge:
 
 ```bash
 # Windows
-set NAVEGADOR=edge && python main.py
+set NAVEGADOR=edge && python main.py #Usar en el cmd para usar Edge
 
 # Linux / macOS
 export NAVEGADOR=edge && python main.py

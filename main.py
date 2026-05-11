@@ -80,6 +80,6 @@ def main(navegador: str = "chrome"):
 
 if __name__ == "__main__":
     # Se puede cambiar el navegador: el predeterminado es 'chrome'
-    # Usar: set NAVEGADOR=edge && python main.py
-    navegador = os.getenv('NAVEGADOR', 'chrome')
+    # Usar: set NAVEGADOR=edge && python main.py en el cmd para usar Edge
+    navegador = os.getenv('NAVEGADOR', 'chrome').strip()
     main(navegador)
