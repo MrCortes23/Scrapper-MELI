@@ -1,0 +1,40 @@
+# Entorno virtual
+env/
+venv/
+.venv/
+
+# Archivos generados por el script
+data_excel/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Distribución / build
+build/
+dist/
+*.egg-info/
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Variables de entorno
+.env
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
